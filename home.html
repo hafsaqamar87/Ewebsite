@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link href="home.css" rel="stylesheet" type="text/css" />
+    <script>
+        var images=["images/slide24.png",
+                    "images/slide2.jpg",
+                   "images/slide22.jpg",
+                  "images/slide11.jpg"];
+        var i=0;
+        function slides(){
+        document.getElementById('slide').src =images[i];
+        if(i<( images.length-1))
+            i++;
+        else{
+            i=0;
+        }
+        setTimeout(slides,7000)
+        }
+</script>
+</head>
+<body>
+    <div class="whole-Div">
+    <div class="mainDiv">
+        <div class="firstDiv">
+            <img src="images/Smart.gif" height="100" width="250"/> 
+       
+            <button class="val-Button" ><a href="index.html" >SIGN OUT</a></button>
+            <button class="val-Button"><a href="signIn.html">SIGN IN</a></button>
+            <button class="val-Button"><a href="signUp.html">SIGN UP</a></button>
+            <a href="./shoppingCart/cart.html"  onMouseover="this.style.color='green';"> 
+                <img class="basket" src="images/basket1.png" height="50" width="50" />
+            </a>
+            <!-- <form>
+                <input type="search" name="search"   placeholder="Search" />
+                <input type="submit" value="Search"/> 
+            </form> -->
+               
+            
+        </div>
+        <div class="second">
+            <img id="slide" src="images/slide2.jpg" width="1200" height="700" />
+            <script>slides()</script>
+        </div>
+        <div class="third">
+            <div class="four">
+                <h1>CategOries:</h1>
+            </div>
+        <div class="ProductsDiv">
+        <div class="abaya-images">
+        <a href="shoppingCart/abaya.html" > 
+            <img src="images/abaya2.jpg" height="200" width="250" />
+        </a>
+            <p>Black Abaya</p>
+            <p>PKR:2,450</p>
+        </div>
+        <div class="Ladies-Bags">
+            <a href="shoppingCart/bags.html"> 
+                <img src="images/ladiesBag1.jpg" height="200" width="250" />
+            </a>
+            <p>Ladies Hand Bags</p>
+            <p>PKR:1,899</p>
+        </div>
+        <div class="stallers">
+            <a href="shoppingCart/stallers.html"> 
+                <img src="images/stole.png" height="200" width="250" />
+            </a>
+            <p>Embriodery Hijab Shawl<br />
+                Scarf</p>
+            <p><b>PKR:700</b></p>
+        </div>
+        <br />
+        <div class="heels">
+            <a href="shoppingCart/heels.html"> 
+                <img src="images/heels1.jpg" height="200" width="250"/>
+            </a>
+            <p>Fancy Stylish Heel</p>
+            <p>PKR:3,350</p>
+        </div>
+
+    </div>
+    <div>
+
+    </div>
+    <div class="footer">
+       <p class="content">Copyright &copy 2020 Smart, All Rights Reserved</p> 
+
+    </div>
+</div>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        
+</body>
+
+</html>

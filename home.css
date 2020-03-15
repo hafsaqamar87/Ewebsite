@@ -1,0 +1,96 @@
+body{
+    background-color:white;
+}
+span{
+    color:rgb(245, 245, 245);
+    font-size:60px;
+}
+.design{
+    color: rgb(219, 219, 233);
+}
+.main-heading{
+    display: inline;
+    color:rgb(240, 237, 245);
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainDiv{
+    background-color:rgb(241, 241, 241);
+    margin:0px 30px 0px 30px;
+
+    
+}
+.whole-Div{
+    background-color: white;
+
+}
+.second{
+    position: relative;
+    margin-left: 50px;
+    margin-right:auto;
+}
+.firstDiv{
+    background-color:white;
+
+}
+.val-Button{
+    background-color:rgb(148, 181, 235);
+    margin: 30px 0px 0px 0px;
+    padding: 10px 30px 10px 30px ;
+    font-weight: bold;
+    border:3px solid rgb(29, 93, 50);
+    border-radius: 100px;
+    border-style:groove;
+    float: right;
+    text-shadow: -1px -1px 1px rgb(1, 11, 20);
+    
+}
+p{
+    font-weight: bold;
+    margin: 0px;
+}
+.third{
+    margin-top: 0px;
+    position: relative;;
+
+}
+.four{
+    font-size:20px;
+    color: rgb(22, 22, 80); 
+    text-decoration: underline;   
+}
+.ProductsDiv{
+    padding-top: 20px;
+    padding-left: 80px;
+    margin-left:10px;
+    background-color:white;
+    display: flex;
+    display: wrap;
+    justify-content: space-evenly;
+}
+.Ladies-Bags{
+    padding-top: 0px;
+    padding-left:90px ;
+}
+.stallers{
+    padding-top: 0px;
+    padding-left:90px ;
+}
+.basket{
+    display: flex;
+    float:right;
+    margin: 30px 0px 0px 0px;
+}
+.top{
+    background-color: rgb(22, 22, 80); 
+}
+/* Footer */
+.footer{
+    background-color:rgb(41, 41, 92);
+    margin:40px;
+    padding:70px 200px 100px 200px;
+}
+.content{
+    font-size: 120%;
+    color:rgb(187, 180, 180);
+}

@@ -1,0 +1,52 @@
+body{
+    background-image: url('images/sandels.jpg');
+    background-repeat: no-repeat;
+}
+.signInForm{
+    border-style:solid;
+    border-width:4px 4px 4px 4px;
+    border-radius:5%;
+    border-color: rgb(70, 40, 70);
+    margin-left: auto;
+    margin-right:auto; 
+    margin-top: 50px; 
+    height:480;
+    width:380px;
+    padding:10% 0% 8% 4%; 
+    background-color: rgb(250, 221, 229);
+    float: left;    
+}
+input{
+    max-width:100%;
+    padding: 5px;
+    border: 2px solid rgb(95, 78, 95); 
+    border-radius:5px;
+    background-color: rgb(245, 221, 225);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:purple;
+    text-decoration: underline;
+}
+
+td{
+    color:purple;
+    font-weight: bold;
+    font-size: 140%;
+}
+.button{
+    background-color:rgb(221, 170, 221);
+    margin: 5%;
+    padding: 10px;
+    border-color:rgb(71, 52, 71);
+    font-weight: bold;
+    border-radius: 5px;
+    float: left;
+}
+button{
+    background-color:rgb(230, 137, 199);
+    margin:0px 100px 0px 300px;
+    border-color: rgb(47, 47, 92);
+    border-radius: 5px;
+    cursor: pointer;
+}

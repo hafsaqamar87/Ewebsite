@@ -1,0 +1,55 @@
+body{
+    background-image: url('images/slide15.jpg');
+    background-repeat: no-repeat;
+}
+.signupform{
+    border-style:solid; 
+    border-width:3px 3px 3px 3px;
+    border-radius: 5%;
+    border-color: rgb(33, 23, 92);
+    margin-left:auto;
+    margin-right:150px; 
+    margin-top: 30px; 
+    float: center;
+    height:480;
+    width:380px;
+    padding:1% 0% 1% 4%;  
+    background-image: url('images/slide20.jpg'); 
+} 
+input{
+    max-width:100%;
+    padding: 5px;
+    border: 2px solid rgb(172, 164, 218); 
+    border-radius:5px;
+    background-color: rgb(225, 225, 238)
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(4, 4, 65);
+    text-decoration: underline;
+}
+p{
+    color:blue;
+    font-size: 130%;
+}
+td{
+    color:rgb(4, 4, 65);
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.button{
+    background-color: rgb(138, 145, 185);
+    padding: 5px;
+    border-color: rgb(49, 49, 119);
+    font-weight: bold;
+    border-radius: 5px;
+    float: left;
+}
+button{
+    background-color:rgb(147, 147, 236);
+    margin:0px 100px 0px 300px;
+    border-color: rgb(47, 47, 92);
+    border-radius: 5px;
+    cursor: pointer;
+}
